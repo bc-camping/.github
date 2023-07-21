@@ -1,0 +1,2 @@
+# Welcome to BC Camping
+I designed this website to create a new way to browse BC Park's campgrounds. The website lets you find all campgrounds that are available for your trip dates, and then sorts them by distance from you. The website itself is just a vanilla JS site, with most of the work being done on the backend. It calls a custom REST api which is hosted as an Azure function (I haven't posted it yet public on GitHub). That interacts with the BC Parks reservation system for availabilty, and then checks the location with open route service.
